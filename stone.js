@@ -24,7 +24,7 @@ class Stone {
     stroke("green");
     fill("white");
     imageMode(CENTER);
-   image(this.image, 0, this.radius);
+   image(this.image, 0,0, this.radius,this.radius);
     pop();
   }
 };
